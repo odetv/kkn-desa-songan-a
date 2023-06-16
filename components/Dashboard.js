@@ -28,12 +28,12 @@ const Dashboard = ({
 
   return (
     <div
-      className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto"
+      className="max-w-screen-xl pt-24 px-8 xl:px-16 mx-auto"
       id="dashboard"
     >
       <ScrollAnimationWrapper>
           <motion.div
-            className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-6 py-6 sm:py-16"
+            className="grid grid-flow-row sm:grid-flow-col md:grid-rows-1 sm:grid-cols-2 gap-6 py-6 sm:py-16"
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-xl lg:text-2xl xl:text-3xl font-medium text-black-600 leading-normal">
@@ -50,8 +50,9 @@ const Dashboard = ({
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/Illustration1.png"
-                  alt="VPN Illustrasi"
+                  className="rounded-t-full"
+                  src="/assets/dashboard.jpg"
+                  alt="KKN Desa Songan A"
                   quality={100}
                   width={612}
                   height={383}
