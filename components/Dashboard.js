@@ -40,7 +40,7 @@ const Dashboard = ({
               Selamat Datang di Website KKNT
               </h1>
               <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-black-600 leading-normal">
-                <strong>Desa Songan A, Kab.Bangli, Bali</strong>
+                <strong>Desa Songan A Bangli, Bali</strong>
               </h1>
               <p className="text-black-500 mt-4 mb-4">
               Platform informasi resmi untuk program Kuliah Kerja Nyata. Program ini merupakan bagian penting dari pengalaman kuliah yang bertujuan untuk mengaplikasikan ilmu pengetahuan dan keterampilan mahasiswa dalam melayani masyarakat.
