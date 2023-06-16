@@ -54,7 +54,7 @@ const Program = () => {
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
               src="/assets/program.png"
-              alt="VPN Illustrasi"
+              alt="KKN Desa Songan A Undiksha 2023"
               layout="responsive"
               quality={100}
               height={414}

@@ -52,7 +52,7 @@ const Dashboard = ({
                 <Image
                   className="rounded-t-full"
                   src="/assets/dashboard.jpg"
-                  alt="KKN Desa Songan A"
+                  alt="KKN Desa Songan A Undiksha 2023"
                   quality={100}
                   width={612}
                   height={383}
