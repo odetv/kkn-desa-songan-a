@@ -132,7 +132,7 @@ const Header = () => {
 
       <nav className="bg-white-500 fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
         <div className="sm:px-3">
-          <ul className="flex w-full justify-between items-center text-black-500">
+          <ul className="grid grid-flow-col grid-cols-5 items-center text-black-500">
             <LinkScroll
               activeClass="active"
               to="dashboard"
