@@ -15,7 +15,7 @@ const About = () => {
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
             About
           </h3>
-          <p className="text-black-500 text-center mt-2 mb-4">
+          <p className="text-black-500 text-center mt-4 mb-4">
             Kenali kami lebih dekat.
           </p>
         </motion.div>

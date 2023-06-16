@@ -25,10 +25,10 @@ const Program = () => {
     >
       <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p y-8 my-12">
         <motion.div className="flex flex-col items-center justify-center ml-auto w-full lg:w-5/6 p-2 lg:items-start xl:items-start" variants={scrollAnimation}>
-          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            Tema Program Kerja KKNT
+          <h3 className="text-center lg:text-left xl:text-left text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+            Program Kerja KKNT
           </h3>
-          <p className="text-center lg:text-left xl:text-left text-black-500 mt-2 mb-4">
+          <p className="text-center lg:text-left xl:text-left text-black-500 mt-4 mb-4">
             Terdapat Proker Wajib, Pilihan, dan Khusus yang dapat diambil baik kelompok dan individu.
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
