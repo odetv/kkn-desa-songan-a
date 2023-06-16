@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
-const features = [
+const programs = [
   "Tanggap Bencana/Pengurangan Resiko Bencana (PRB)",
   "Sanitasi Lingkungan dan Kesehatan",
   "Pengelolaan Sampah berbasis Sumber",
@@ -15,13 +15,13 @@ const features = [
   "Program Keluarga Asuh"
 ]
 
-const Feature = () => {
+const Program = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
     <div
       className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
-      id="program-kkn"
+      id="program"
     >
       <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p y-8 my-12">
         <motion.div className="flex flex-col items-start justify-center ml-auto w-full lg:w-5/6 p-2" variants={scrollAnimation}>
@@ -32,7 +32,7 @@ const Feature = () => {
             Terdapat Proker Wajib, Pilihan, dan Khusus yang dapat diambil baik kelompok dan individu.
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
-            {features.map((feature, index) => (
+            {programs.map((feature, index) => (
               <motion.li
                 className="relative circle-check custom-list"
                 custom={{duration: 2 + index}}
@@ -67,4 +67,4 @@ const Feature = () => {
   );
 };
 
-export default Feature;
+export default Program;
