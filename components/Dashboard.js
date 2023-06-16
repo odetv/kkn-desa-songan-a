@@ -45,7 +45,7 @@ const Dashboard = ({
               <p className="text-black-500 mt-4 mb-4">
               Platform informasi resmi untuk program Kuliah Kerja Nyata. Program ini merupakan bagian penting dari pengalaman kuliah yang bertujuan untuk mengaplikasikan ilmu pengetahuan dan keterampilan mahasiswa dalam melayani masyarakat.
               </p>
-              <a href="#" target=""><ButtonPrimary>Kenali kami lebih lanjut</ButtonPrimary></a>
+              <a href="#" target=""><ButtonPrimary>Kenali Kami Lebih Lanjut</ButtonPrimary></a>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>

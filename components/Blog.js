@@ -13,7 +13,7 @@ const Blog = () => {
       <div className="pb-12 pt-12">
         <motion.div className="flex flex-col items-center justify-center ml-auto w-full p-2" variants={scrollAnimation}>
           <h3 className="text-center text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            Blog dan Galery KKNT
+            Blog & Galery
           </h3>
           <p className="text-black-500 text-center mt-4 mb-4">
             Temukan berita dan album dokumentasi selama kegiatan KKNT berlangsung.

@@ -36,7 +36,7 @@ const Footer = () => {
           <p className="text-black-600 mt-4 lg:mt-0 xl:mt-0 lg:mb-4 xl:mb-4 font-medium text-lg">Program KKN</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Proker Wajib ?{" "}
+              Proker Wajib{" "}
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Proker Pilihan{" "}
@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-black-600 mt-4 lg:mt-0 xl:mt-0 lg:mb-4 xl:mb-4 font-medium text-lg">Blog</p>
+          <p className="text-black-600 mt-4 lg:mt-0 xl:mt-0 lg:mb-4 xl:mb-4 font-medium text-lg">Blog & Galery</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Berita{" "}
@@ -58,7 +58,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="pt-12 pb-4 lg:pt-0 lg:pb-0 xl:pt-0 xl:pb-0 text-center text-xs text-gray-400">©{new Date().getFullYear()} - MOMENTKITA BALI</p>
+      <a href="https://momentkitabali.my.id/" target="blank"><p className="pt-12 lg:pt-0 lg:pb-0 xl:pt-0 xl:pb-0 text-center text-xs text-gray-400">©{new Date().getFullYear()} - MOMENTKITA BALI</p></a>
+      <a href="#"><p className="pb-4 lg:pt-0 lg:pb-0 xl:pt-0 xl:pb-0 text-center text-xs text-gray-400">KKNT Desa Songan A | Universitas Pendidikan Ganesha</p></a>
     </div>
   );
 };
