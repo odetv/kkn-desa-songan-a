@@ -15,7 +15,7 @@ const Blog = () => {
           <h3 className="text-center text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
             Blog dan Galery KKNT
           </h3>
-          <p className="my-2 text-black-500 text-center">
+          <p className="text-black-500 text-center mt-2 mb-4">
             Temukan berita dan album dokumentasi selama kegiatan KKNT berlangsung.
           </p>
         </motion.div>

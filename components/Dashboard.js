@@ -28,21 +28,21 @@ const Dashboard = ({
 
   return (
     <div
-      className="max-w-screen-xl pt-24 px-8 xl:px-16 mx-auto"
+      className="max-w-screen-xl pt-28 px-8 xl:px-16 mx-auto"
       id="dashboard"
     >
       <ScrollAnimationWrapper>
           <motion.div
             className="grid grid-flow-row sm:grid-flow-col md:grid-rows-1 sm:grid-cols-2 gap-6 py-6 sm:py-16"
             variants={scrollAnimation}>
-            <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+            <div className="text-center flex flex-col justify-center items-center row-start-2 sm:row-start-1 lg:items-start xl:items-start lg:text-left xl:text-left">
               <h1 className="text-xl lg:text-2xl xl:text-3xl font-medium text-black-600 leading-normal">
-              Selamat Datang di Website Resmi KKNT
+              Selamat Datang di Website KKNT
               </h1>
-              <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-black-600 leading-normal mt-1">
+              <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-black-600 leading-normal">
                 <strong>Desa Songan A, Kab.Bangli, Bali</strong>
               </h1>
-              <p className="text-black-500 mt-4 mb-6">
+              <p className="text-black-500 mt-4 mb-4">
               Platform informasi resmi untuk program Kuliah Kerja Nyata. Program ini merupakan bagian penting dari pengalaman kuliah yang bertujuan untuk mengaplikasikan ilmu pengetahuan dan keterampilan mahasiswa dalam melayani masyarakat.
               </p>
               <a href="#" target=""><ButtonPrimary>Kenali kami lebih lanjut</ButtonPrimary></a>
